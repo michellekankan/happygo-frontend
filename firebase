@@ -1,0 +1,20 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAM7yZITPqhDOss0AVnQNG73CKMZIz5uHE",
+    authDomain: "onlinewebsite-5792f.firebaseapp.com",
+    databaseURL: "https://onlinewebsite-5792f-default-rtdb.firebaseio.com",
+    projectId: "onlinewebsite-5792f",
+    storageBucket: "onlinewebsite-5792f.appspot.com",
+    messagingSenderId: "421760003802",
+    appId: "1:421760003802:web:e13c8d5a06c608ba62bfe3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body>
+    <header>
+      <div class="search-container">
+        <input type="text" placeholder="Search products..." />
+        <button type="submit">Search</button>
+      </div>
+      <div class="user-controls">
+        <a href="profile.html">Profile</a>
+        <a class="cart" href="shoppingCart.html">Cart</a>
+      </div>
+    </header>
+    <main>
+      <div class="product-container">
+        <div class="product-image">
+          <img src="image/product/mirror.jpeg" alt="Product Name" />
+        </div>
+        <div class="product-details">
+          <h1 class="product"></h1>
+          <p class="price">$99.99</p>
+          <p class="category">Category: Furniture</p>
+          <p class="description">
+            Easy to install - metal mounting brackets and hanging hardware
+            included.
+          </p>
+          <p class="inventory">In Stock</p>
+          <div class="add-to-cart-container">
+            <select name="quantity" class="quantity">
+              <option value="1" selected disabled hidden>Quantity: 1</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="product.js"></script>
+  </body>
+</html>

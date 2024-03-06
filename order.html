@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link rel="stylesheet" href="order.css" />
+  </head>
+  <body>
+    <section class="order-container">
+      <h1>Order Summary</h1>
+      <h2>Order Details</h2>
+      <table class="order">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody class="details"></tbody>
+      </table>
+      <div class="order-info">
+        <h2>Status: <span class="status">Processing</span></h2>
+        <h2 class="order-date"></h2>
+      </div>
+      <div class="payment-info">
+        <h2>Payment Information</h2>
+        <p>Credit Card ending in 1234</p>
+      </div>
+      <div class="shipping-address">
+        <h2>Shipping Address</h2>
+        <address class="order-address"></address>
+      </div>
+    </section>
+    <script src="order.js"></script>
+  </body>
+</html>

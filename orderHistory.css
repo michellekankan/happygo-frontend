@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.order-history-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.order {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.order:last-child {
+  border-bottom: none;
+}
+
+.order h2 {
+  margin: 0 0 10px 0;
+}
+
+.order p {
+  margin: 5px 0;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.shipped {
+  color: green;
+}
+
+.status.processing {
+  color: orange;
+}

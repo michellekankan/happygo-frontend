@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoppingCart.css" />
+  </head>
+  <body>
+    <div class="shopping-cart-container">
+      <h1>Shopping Cart</h1>
+      <table class="shopping-cart">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody class="details"></tbody>
+          <!-- Repeat for other products -->
+        </tbody>
+      </table>
+      <div class="checkout-container">
+        <p class="total-price">Total: $0</p>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </div>
+    <script src="shoppingCart.js"></script>
+  </body>
+</html>

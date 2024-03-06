@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-info h2 {
+  margin-top: 10px;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+}
+
+.details li {
+  margin: 10px 0;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button a {
+  text-decoration: none;
+  margin-top: 30px;
+}
